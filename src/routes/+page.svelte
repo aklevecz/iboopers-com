@@ -1,5 +1,5 @@
 <script>
-  import BooperTrophy from "$lib/components/booper-trophy.svelte";
+//   import BooperTrophy from "$lib/components/booper-trophy.svelte";
 
 </script>
 <h1>iBoopers</h1>
@@ -12,7 +12,10 @@
   Season 1 will be happening in Los Angeles CA hosted by Ariel Klevecz. The winner will receive the first booper trophy and eternal bragging rights
 </p>
 <p>Questions? Comments? Concerns? feel free to contact Ariel at any time!</p>
-<BooperTrophy/>
+{#await import("$lib/components/booper-trophy.svelte") then Module}
+	<Module.default />
+{/await}
+<!-- <BooperTrophy/> -->
 <p>
   ariel@yaytso.art<br/>
   yaytso gallery<br/> 
