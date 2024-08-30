@@ -7,10 +7,26 @@
 <Nav/>
 <svelte:head>
     <title>iBoopers</title>
-    <meta name="description" content="iBoopers is a fun app that lets you find your booper card" />
-    <meta name="keywords" content="booper, card, fun, app" />
+<meta name="description" content="iBoopers is an interactive app that helps you discover your unique booper card. Join the fun and find your perfect match today!" />
+    <meta name="keywords" content="booper card, interactive app, personality quiz, digital collectibles, fun app" />
     <meta name="author" content="Ariel Klevecz" />
-    <meta name="og:image" content="https://iboopers.com/seo.png" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://iboopers.com/" />
+    <meta property="og:title" content="iBoopers - Find Your Fun Booper Card | Interactive App" />
+    <meta property="og:description" content="Discover your unique booper card with iBoopers. Join the fun and find your perfect match today!" />
+    <meta property="og:image" content="https://iboopers.com/seo.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://iboopers.com/" />
+    <meta property="twitter:title" content="iBoopers - Find Your Fun Booper Card | Interactive App" />
+    <meta property="twitter:description" content="Discover your unique booper card with iBoopers. Join the fun and find your perfect match today!" />
+    <meta property="twitter:image" content="https://iboopers.com/seo.png" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://iboopers.com/" />
 </svelte:head>
 <h1 style="margin:.5rem;">iBoopers</h1>
 <div class="app-container" style="
