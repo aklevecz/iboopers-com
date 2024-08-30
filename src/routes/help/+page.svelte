@@ -1,6 +1,6 @@
 <script>
 </script>
-<h1>Contact</h1>
+<h1>Help</h1>
 <p>
   Season 1 will be happening in Los Angeles CA. The winner will receive the first booper trophy and eternal bragging rights
 </p>
