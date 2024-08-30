@@ -6,7 +6,9 @@
 <div style="margin-bottom:1rem;"></div>
 <img class="smiler" src="/svgs/smiler.svg" alt="smiler" />
 <p class="lg" style="text-align:center;">Are you ready to boop? Download the app and find your booper card</p>
-<button>Download</button>
+<button onclick={() => {
+    alert("Soon this will open the app store!")
+}}>Download</button>
 <div style="margin-bottom:2rem;"></div>
 <p>
   Season 1 will be happening in Los Angeles CA. The winner will receive the first booper trophy and eternal bragging rights

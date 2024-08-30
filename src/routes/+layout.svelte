@@ -1,8 +1,10 @@
 <script>
+    import Nav from "$lib/components/nav.svelte";
     import "../app.css"
     /** @type {{data:import('./$types').LayoutData, children: any}} */
     let {children} = $props()
 </script>
+<Nav/>
 <div class="app-container" style="
     ">
     {@render children()}
