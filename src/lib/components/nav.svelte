@@ -25,7 +25,7 @@
   nav {
     position: fixed;
     bottom: 70px;
-    right: 12px;
+    right: 0px;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;

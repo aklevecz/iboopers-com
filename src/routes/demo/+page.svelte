@@ -5,7 +5,7 @@
 <h2>Version 1.0</h2>
 <div class="video-container">
   <h3>Demo with Narration</h3>
-  <video controls src="/demo/demo_narrated.mp4"></video>
+  <video controls src="/demo/demo_narrated_sm.mp4"></video>
 </div>
 <div>
   <h3>Demo only app</h3>

@@ -32,6 +32,7 @@
     padding:2rem;padding-top:.5rem;
     min-height:80vh;
 }
+
 footer {
     height: 100px;
     display:flex;
