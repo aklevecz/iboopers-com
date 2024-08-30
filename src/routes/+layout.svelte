@@ -5,6 +5,14 @@
     let {children} = $props()
 </script>
 <Nav/>
+<svelte:head>
+    <title>iBoopers</title>
+    <meta name="description" content="iBoopers is a fun app that lets you find your booper card" />
+    <meta name="keywords" content="booper, card, fun, app" />
+    <meta name="author" content="Ariel Klevecz" />
+    <meta name="og:image" content="https://iboopers.com/seo.png" />
+</svelte:head>
+<h1 style="margin:.5rem;">iBoopers</h1>
 <div class="app-container" style="
     ">
     {@render children()}
