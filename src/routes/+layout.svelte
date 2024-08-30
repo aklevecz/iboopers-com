@@ -14,14 +14,14 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://iboopers.com/" />
-    <meta property="og:title" content="iBoopers - Find Your Fun Booper Card | Interactive App" />
+    <meta property="og:title" content="iBoopers" />
     <meta property="og:description" content="Discover your unique booper card with iBoopers. Join the fun and find your perfect match today!" />
     <meta property="og:image" content="https://iboopers.com/seo.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://iboopers.com/" />
-    <meta property="twitter:title" content="iBoopers - Find Your Fun Booper Card | Interactive App" />
+    <meta property="twitter:title" content="iBoopers" />
     <meta property="twitter:description" content="Discover your unique booper card with iBoopers. Join the fun and find your perfect match today!" />
     <meta property="twitter:image" content="https://iboopers.com/seo.png" />
 
