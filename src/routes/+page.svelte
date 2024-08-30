@@ -9,7 +9,7 @@
 <button>Download</button>
 <div style="margin-bottom:2rem;"></div>
 <p>
-  Season 1 will be happening in Los Angeles CA hosted by Ariel Klevecz. The winner will receive the first booper trophy and eternal bragging rights
+  Season 1 will be happening in Los Angeles CA. The winner will receive the first booper trophy and eternal bragging rights
 </p>
 <p>Questions? Comments? Concerns? feel free to contact Ariel at any time!</p>
 {#await import("$lib/components/booper-trophy.svelte") then Module}
@@ -18,7 +18,7 @@
 <!-- <BooperTrophy/> -->
 <p>
   ariel@yaytso.art<br/>
-  yaytso gallery<br/> 
+  <img src="/svgs/yaytso-logo-svg.svg" alt="yaytso"><br/> 
   2684 Lacy St. #109<br/>
   Los Angeles, 90031
 </p>
