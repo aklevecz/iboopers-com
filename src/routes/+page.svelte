@@ -11,7 +11,7 @@
       }}>Download</button
     >
   </div>
-  <!-- <div style="margin-bottom:2rem;"></div> -->
+  <div style="margin-bottom:100px;"></div>
   <div class="col-1half">
     <div class="centered-block">
     <h2>SEASON 1 - FALL 2024</h2>

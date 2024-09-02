@@ -18,6 +18,8 @@
   }
   video {
     width: 100%;
+    max-width: 800px;
+    max-height: 100vh;
     height: auto;
   }
 </style>

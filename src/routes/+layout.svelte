@@ -58,7 +58,6 @@ import Nav from "$lib/components/nav.svelte";
     padding-top: 0.5rem;
     min-height: 80vh;
     width: 100%;
-    gap: 150px;
   }
 
 
