@@ -1,10 +1,10 @@
 <script>
-    import Nav from "$lib/components/nav.svelte";
+    import NavLinks from "$lib/components/nav-links.svelte";
+import Nav from "$lib/components/nav.svelte";
     import "../app.css"
     /** @type {{data:import('./$types').LayoutData, children: any}} */
     let {children} = $props()
-</script>
-<Nav/>
+</script> 
 <svelte:head>
     <title>iBoopers</title>
 <meta name="description" content="iBoopers is an interactive app that helps you discover your unique booper card. Join the fun and find your perfect match today!" />
@@ -28,11 +28,11 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://iboopers.com/" />
 </svelte:head>
-<h1 style="margin:.5rem;">iBoopers</h1>
-<div class="app-container" style="
-    ">
+<div class="header"><h1 style="margin:.5rem;">iBoopers</h1><div class="desk-nav-links"><NavLinks/></div></div>
+<div class="container">
     {@render children()}
 </div>
+<Nav/>
 <footer>
     <img src="/svgs/smiler.svg" alt="smiler" />
     <div>
@@ -41,13 +41,27 @@
     </div>
 </footer>
 <style>
-.app-container {
-    display:flex;
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:1rem;
+    }
+    .desk-nav-links {
+        display: none;
+    }
+  .container {
+    display: flex;
     flex-direction: column;
-    align-items:center;
-    padding:2rem;padding-top:.5rem;
-    min-height:80vh;
-}
+    /* align-items:center; */
+    padding: 2rem;
+    padding-top: 0.5rem;
+    min-height: 80vh;
+    width: 100%;
+    gap: 150px;
+  }
+
+
 
 footer {
     height: 100px;
@@ -64,10 +78,17 @@ footer > img {
     width: 50px;
     height: 50px;
 }
-
 @media (min-width: 768px) {
-    .app-container {
-        min-height: calc(100vh - 130px);
+    .desk-nav-links {
+        display: flex;
+        gap: 1rem;
     }
-}
+    /* .container {
+      min-height: calc(99vh - 157px);
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1rem;
+    } */
+  }
+
 </style>

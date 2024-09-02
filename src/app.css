@@ -1,35 +1,53 @@
 :root {
-    --blue: #00AEEF;
-    --green: #00A651;
+  --blue: #00aeef;
+  --green: #00a651;
 }
 body {
-    font-family: SF Pro Rounded;
-    margin: 0;
-    padding: 0;
+  font-family: SF Pro Rounded;
+  margin: 0;
+  padding: 0;
 }
-h1, h2, h3 {
-    margin:0;
-    padding:0;
-}
-
-p {
-    font-size: 24px;
-    font-weight: bold;
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
 }
 
-p.lg {
-    font-size: 32px;
-    font-weight: bold;
+* {
+    box-sizing: border-box;
+}
+
+div, p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+div.lg, p.lg {
+  font-size: 32px;
+  font-weight: bold;
 }
 
 button {
-    background-color: var(--blue);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 50px;
-    cursor: pointer;
-    font-family: SF Pro Rounded;
-    font-size: 24px;
-    font-weight: bold;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: SF Pro Rounded;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.centered-block {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: var(--blue);
 }
