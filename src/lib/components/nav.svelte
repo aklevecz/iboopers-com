@@ -45,4 +45,12 @@
     margin-bottom:1rem;
     z-index: 1000;
   }
+
+  @media (min-width: 768px) {
+
+
+    .menu-btn {
+      display: none;
+    }
+  }
 </style>
