@@ -7,7 +7,7 @@
     <p class="lg" style="text-align:center;">Are you ready to boop? Download the app and find your booper card</p>
     <button
       onclick={() => {
-        alert("Soon this will open the app store!");
+       window.open("https://apps.apple.com/us/app/iboopers/id6636547723");
       }}>Download</button
     >
   </div>
