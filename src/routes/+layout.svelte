@@ -41,6 +41,9 @@ import Nav from "$lib/components/nav.svelte";
     </div>
 </footer>
 <style>
+    :global(body, html) {
+        background-color: white;
+    }
     .header {
         display: flex;
         align-items: center;
